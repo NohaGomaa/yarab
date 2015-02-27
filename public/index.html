@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      background: url("http://www.theartofdoingstuff.com/wp-content/uploads/2011/05/00319_WinsorGreenBlueShade-l.jpg");
+      background-size: cover;
+      padding: 10px 10px 10px 10px;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 30px;
+      margin: 0 auto;
+      padding-top: 0px;
+      padding-right:0px;
+      padding-bottom:0px;
+      padding-left: 15px;  
+      color: green;
+    }
+    img {
+    width: 100px;
+    height: 100px;
+    border-radius: 107px;
+}
+    ul {
+      padding-top: 130px;
+      padding-right:0px;
+      padding-bottom:2px;
+      padding-left: 20px;  
+      margin: -190px 70px 70px 100px;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 9px;
+      font-size: 18;
+    }
+    article {
+      max-width: 500px;
+      padding: 10px;
+      margin: 0 auto;
+    }
+    div{
+  height: 500px;
+  margin: 0 auto;
+}
+.first{
+  background: url("http://i.imgur.com/oKdA9ks.jpg");
+  background-size: cover;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://i.imgur.com/cGIYjGg.jpg">
+  </header>
+  <ul>
+      <li><a href="./About us.html">About Us</a></li>
+      <li><a href="./our team new.html">Our Team</a></li>
+      <li><a href="./Our services.html">Our Services</a></li>
+      <li><a href="./articles">Our BLOG</a></li>
+      <li><a href="./Contact us.html">Contact Us</a></li>
+    </ul>
+  <h1>Syntax-Solutions</h1>
+ <div>
+ <div class="first">
+ </div>
+  <article>
+    <h2>Syntax-Solutions is finally online!</h2>
+    <p>On the 8th of February 2015, a group of young developers decided to create a company that serves our fast moving world !</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
